@@ -22,7 +22,7 @@ int main()
 			cerr<< "Qualcosa è andato storto"<< endl;
 			return -1;
 		}
-	else
+	
 
 		
 	//adesso invoco una funzione che calcola il livello del mio portafoglio
@@ -42,7 +42,7 @@ int main()
     }
     else
         cout<< "Stampa avvenuta con successo"<< endl;
-	if (!Stampa_risultati_schermo(outputFileName,n,S,w,r,rate,livello_portafoglio))
+	if (!Stampa_risultati_schermo(n,S,w,r,rate,livello_portafoglio))
 		{
 			cerr<< "Qualcosa è andato storto nella stampa dei risultati"<< endl;
 			return -1;
